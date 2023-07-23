@@ -1,0 +1,12 @@
+{
+  "name": "sistema-expresso",
+  "version": "1.0.0",
+  "description": "Simulacion de un sistema para compras de expresso",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/app.js"
+  },
+  "author": "alhanis.espinal@unah.hn",
+  "license": "ISC"
+}

@@ -1,0 +1,147 @@
+{
+    "Productos": [
+        {
+            "nombre": "Granita Pequeña",
+            "detalles": {
+                "Tamaño": "8oz",
+                "Precio": "32.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Hielo",
+                    "Azucar"
+                ]
+            }
+        },
+        {
+            "nombre": "Granita Mediana",
+            "detalles": {
+                "Tamaño": "12oz",
+                "Precio": "44.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Hielo",
+                    "Azucar"
+                ]
+            }
+        },
+        {
+            "nombre": "Granita Grande",
+            "detalles": {
+                "Tamaño": "16oz",
+                "Precio": "52.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Hielo",
+                    "Azucar"
+                ]
+            }
+        },
+        {
+            "nombre": "Mocachino",
+            "detalles": {
+                "Tamaño": "12oz",
+                "Precio": "52.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Chocolate",
+                    "Leche",
+                    "Hielo"
+                ]
+            }
+        },
+        {
+            "nombre": "Mocachino Spreme",
+            "detalles": {
+                "Tamaño": "16oz",
+                "Precio": "65.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Chocolate",
+                    "Leche",
+                    "Hielo",
+                    "Nata montada"
+                ]
+            }
+        },
+        {
+            "nombre": "Latte",
+            "detalles": {
+                "Tamaño": "12oz",
+                "Precio": "38.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Leche"
+                ]
+            }
+        },
+        {
+            "nombre": "Espresso Doble",
+            "detalles": {
+                "Tamaño": "2oz",
+                "Precio": "40.00",
+                "Ingredientes": [
+                    "Cafe"
+                ]
+            }
+        },
+        {
+            "nombre": "Frappe",
+            "detalles": {
+                "Tamaño": "16oz",
+                "Precio": "50.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Hielo",
+                    "Leche",
+                    "Azucar"
+                ]
+            }
+        },
+        {
+            "nombre": "Capuchino",
+            "detalles": {
+                "Tamaño": "12oz",
+                "Precio": "46.00",
+                "Ingredientes": [
+                    "Cafe",
+                    "Leche",
+                    "Nata montada"
+                ]
+            }
+        }
+    ],
+    "Empleados": {
+        "Cajero": [
+            {
+                "id": "987654321",
+                "nombre": "Maria Rosales",
+                "email": "mariarosales@gmail.com"
+            },
+            {
+                "id": "246813579",
+                "nombre": "Juan Hernandez",
+                "email": "joh@gmail.com"
+            },
+            {
+                "id": "135792468",
+                "nombre": "Manuel Zelaya",
+                "email": "elbigotes@gmail.com"
+            },
+            {
+                "id": "864209753",
+                "nombre": "Xiomara Castro",
+                "email": "ladoñita@gmail.com"
+            },
+            {
+                "id": "975318642",
+                "nombre": "Salvador Nasrralla",
+                "email": "yogane@gmail.com"
+            },
+            {
+                "id": "531476892",
+                "nombre": "Nasry Asfura",
+                "email": "lavadopanameño@gmail.com"
+            }
+        ]
+    }
+}
