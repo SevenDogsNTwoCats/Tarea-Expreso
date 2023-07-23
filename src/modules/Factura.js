@@ -1,10 +1,9 @@
-export const Factura = (sucursal, cajero, datosProductos) => {
+export const Factura = (numFactura, sucursal, cajero, datosProductos) => {
 
-    const numFactura = 1;
     const productos = datosProductos.productos
     const total = parseFloat(datosProductos.total)
     const ISV = parseFloat(datosProductos.ISV)
-    const totalPagar =  total + ISV
+    const totalPagar = total + ISV
 
     console.log(
         `
@@ -17,8 +16,8 @@ export const Factura = (sucursal, cajero, datosProductos) => {
 
 
     ${productos.map(producto => {
-        return `${producto}`;
-    }).join('\n    ')}
+            return `${producto}`;
+        }).join('\n    ')}
     ---------------------------------------------------
     Total                                ${total}
     ISV                                  ${ISV.toFixed(2)}
@@ -26,4 +25,5 @@ export const Factura = (sucursal, cajero, datosProductos) => {
     Total a Pagar                        ${totalPagar}
     
 `)
+
 }

@@ -7,12 +7,38 @@ const db = JSON.parse(data)
 const Empleados = db.Empleados
 const Productos = db.Productos
 
-const numCajero = 0
-const sucursal = 'Los Angeles'
+
+//primera factura
+let numFactura = 1
+let numCajero = 0
+let sucursal = 'Los Angeles'
 const porcentajeISV = 0.15
 const cajeroData = Empleados.Cajero[numCajero]
-const productComprados = [Productos[0], Productos[1], Productos[2]]
+let productComprados = [Productos[0], Productos[1], Productos[2]]
 
-const datosProductos = ArticulosComprados(productComprados, porcentajeISV)
+let datosProductos = ArticulosComprados(productComprados, porcentajeISV)
 
-Factura(sucursal, cajeroData, datosProductos)
+Factura(numFactura, sucursal, cajeroData, datosProductos)
+
+//segunda factura
+
+numFactura++
+numCajero = 2
+sucursal = 'Los Angeles'
+productComprados = [Productos[1], Productos[2]]
+
+datosProductos = ArticulosComprados(productComprados, porcentajeISV)
+
+Factura(numFactura, sucursal, cajeroData, datosProductos)
+
+//tercera factura
+
+numFactura++
+numCajero = 1
+sucursal = 'Miraflores'
+productComprados = [Productos[1]]
+
+datosProductos = ArticulosComprados(productComprados, porcentajeISV)
+
+Factura(numFactura, sucursal, cajeroData, datosProductos)
+
