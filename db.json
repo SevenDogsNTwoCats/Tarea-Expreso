@@ -1,4 +1,34 @@
 {
+    "Sucursales": [
+        {
+            "idEstablecimiento": "001",
+            "nombreEstablecimiento": "Las Rosas",
+            "puntosEmision": [
+                "101",
+                "102"
+            ]
+        },
+        {
+            "idEstablecimiento": "002",
+            "nombreEstablecimiento": "El Pedernal",
+            "puntosEmision": [
+                "201",
+                "202"
+            ]
+        }
+    ],
+
+    "TiposDocumentos": [
+        {
+            "tipo": "Factura",
+            "idTipo": "32"
+        },
+        {
+            "tipo": "Nota de pago",
+            "idTipo": "58"
+        }
+    ],
+    
     "Productos": [
         {
             "nombre": "Granita Pequeña",
